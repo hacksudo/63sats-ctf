@@ -6,10 +6,9 @@ This project simulates real-world attack scenarios, helping security enthusiasts
 ---
 
 ## 🚀 Features
-- 🔑 Multiple challenges covering Web, API, and Authentication vulnerabilities
+- 🔑 Multiple challenges covering Web,Authentication vulnerabilities
 - 🐳 Dockerized for easy setup and deployment
 - 🎯 Realistic exploitation scenarios
-- 📚 Includes PortSwigger and OWASP references
 - 🖥️ Hacker-themed UI for immersive experience
 
 ---
@@ -24,8 +23,8 @@ cd 63sats-ctf
 
 ## 🛠️ Build and Run with Docker
 ```bash
-docker build -t easy-ctf .
-docker run -d -p 80:80 easy-ctf
+docker build -t hacksudo/63sats-ctf .
+docker run -d -p 80:80 hacksudo/63sats-ctf
 ```
 ### 3️⃣ Access the Lab
 ```bash
@@ -33,7 +32,7 @@ Open your browser and go to:
 http://localhost:80
 ```
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 ```bash
 Vishal Waghmare
     🌐 hacksudo.com
